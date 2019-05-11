@@ -8,7 +8,7 @@ body {
   border: 1px solid #f1f1f1;
   perspective: 1000px;
 /*mw te add sa*/
-  border-style: dotted;
+  border-style: 10px;
   background-color: #8B0000;
   border-color: #988;
 }
@@ -39,15 +39,30 @@ body {
 }
 
 .flip-box-back {
-  background-color: dodgerblue;
-  color: white;
+  border-style: double;
+  color: yellow;
   transform: rotateY(180deg);
+  background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+#div {
+text-align: center;
 }
 
-
-
-
-
-
+#div1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+#div1 {
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 1300px;}
+}
 
 /*website mw te pranl https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_box*/

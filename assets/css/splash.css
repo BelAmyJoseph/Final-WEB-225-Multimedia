@@ -18,6 +18,19 @@ h1 {
     margin-top: 2vw;
     margin-left: 5.5vw;
 }
+h2{
+  position: sticky;
+  width: 600px;
+  height: 90px;
+  top: auto;
+
+}
+/*mw te fe sa pou box la*/
+.box{
+  box-sizing: content-box;
+  border: 2px solid blue;
+}
+/*mw te fe sa pou box la*/
 
 #hashSign {
     position: relative;

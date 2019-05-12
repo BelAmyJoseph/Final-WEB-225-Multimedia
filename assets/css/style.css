@@ -17,10 +17,11 @@
     margin: 20px 50px 10px 30px;
 }
 .fas{
-  background: url('https://wwwcache.wral.com/asset/news/local/2015/10/21/14994848/210288-bigstock-Fire-Flame-70534747-DMID1-5bn183z5s-640x360.jpg');
+  background: repeating-linear-gradient(transparent, #4d9f0c 40px),
+            repeating-linear-gradient(0.25turn, transparent, #3f87a6 20px);
   position: relative;
     color: rgba(0, 0, 0, 1);
-    font-size: 4em;
+    font-size: 3em;
     opacity: 15.5;
   filter: alpha(opacity=50);
 

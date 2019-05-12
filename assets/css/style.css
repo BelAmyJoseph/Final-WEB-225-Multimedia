@@ -22,5 +22,13 @@
     font-size: 3em;
     opacity: 15.5;
   filter: alpha(opacity=50);
-
+}
+  body {
+    background-color: #555;
+  }
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }

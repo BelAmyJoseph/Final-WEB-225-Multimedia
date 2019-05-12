@@ -1,0 +1,69 @@
+#octagon h1 {
+  border-color: white;
+  border-style: groove;
+  position: relative;
+  border: 100px;
+  top: auto;
+  bottom: auto;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: lightblue;
+  text-shadow: 0 0 30px #FF0000, 0 0 53px #0000FF;
+}
+
+#octagon:before {
+  content: "";
+  width: 42px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29px solid #ac60ec;
+  border-left: 29px solid #f4f4f4;
+  border-right: 29px solid #f4f4f4;
+}
+
+#octagon:after {
+  content: "";
+  width: 42px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid #ac60ec;
+  border-left: 29px solid #f4f4f4;
+  border-right: 29px solid #f4f4f4;
+}
+
+#octagon {
+  weight: 100px;
+  height: 100px;
+  background-color: yellow;
+  -webkit-animation-name: octagon;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: octagon;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes octagon {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: yellow;
+  }
+}
+
+/* Standard syntax */
+@keyframes octagon {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: blue;
+  }
+}
